@@ -154,7 +154,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: url("image/hi.png") no-repeat center;
+  background: url("image/banner.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -162,7 +162,6 @@ section .title::after{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-
 .home .max-width{
   margin: auto 0 auto 30px; 
 }
@@ -375,16 +374,8 @@ section{
 .contact .contact-content .info .sub-title{
   color: #333;
 }
-.contact .contact-content .column-right p{
-  font-weight: 1000;
-} 
 .contact .right form .fields{
   display: flex;
-}
-.contact .right p{
-  font-size: 22px;
-  color: red;
-  font-weight: 30px;
 }
 .contact .right form .field,
 .contact .right form .fields .field{
@@ -570,3 +561,5 @@ footer span a:hover{
     font-size: 32px;
   }
 }
+
+
